@@ -1,2 +1,2 @@
 # RecetasMIMOAlvaros
-A
+API recetas Play Framework Alvaros
