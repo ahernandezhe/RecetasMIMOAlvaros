@@ -1,0 +1,70 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+
+##================================================================================
+##------------------------RECETAS GET---------------------------------------------
+##================================================================================
+
+
+#listar receta por id
+GET /receta/id/:id controllers.RecetasController.recetaId(id: Long)
+
+#listar receta por nombre
+GET /receta/nombre/:nombre controllers.RecetasController.recetaNombre(nombre: String)
+
+#listar receta por categoria
+GET /receta/categoria/:categoria controllers.RecetasController.recetaCategoria(categoria: String)
+
+##================================================================================
+##------------------------INGREDIENTES GET--------------------------------------
+##================================================================================
+
+#listar ingredientes por id
+GET /ingrediente/id/:id controllers.RecetasController.ingredienteId(id: Long)
+
+#listar ingredientes por nombre
+GET /ingrediente/nombre/:nombre controllers.RecetasController.ingredienteNombre(nombre: String)
+
+#listar ingredientes por tipo
+GET /ingrediente/tipo/:tipo controllers.RecetasController.ingredientesTipo(tipo: String)
+
+
+##================================================================================
+##------------------------METODOS POST -------------------------------------------
+##================================================================================
+
+#crear receta
+POST /recetas controllers.RecetasController.crearReceta
+
+#crear ingrediente
+POST /ingredientes controllers.RecetasController.crearIngrediente
+
+##================================================================================
+##------------------------METODOS DELETE -------------------------------------------
+##================================================================================
+
+#borrar receta
+DELETE /receta/:id controllers.RecetasController.eliminarReceta(id: Long)
+
+##================================================================================
+##------------------------METODOS PUT -------------------------------------------
+##================================================================================
+
+#actualizar receta
+PUT /receta controllers.RecetasController.actualizarReceta()
+
+#actualizar ingrediente
+PUT /ingrediente controllers.RecetasController.actualizarIngrediente()
+
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index
+# An example controller showing how to use dependency injection
+GET     /count                      controllers.CountController.count
+# An example controller showing how to write asynchronous code
+GET     /message                    controllers.AsyncController.message
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

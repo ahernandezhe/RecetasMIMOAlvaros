@@ -1,0 +1,6 @@
+2016-12-28 23:00:47,118 [INFO] from application in ForkJoinPool-2-worker-1 - Creating Pool for datasource 'default'
+2016-12-28 23:00:47,166 [INFO] from play.api.db.DefaultDBApi in ForkJoinPool-2-worker-1 - Database [default] connected at jdbc:h2:~/recetasMIMODB5.db
+2016-12-28 23:00:47,756 [INFO] from application in ForkJoinPool-2-worker-1 - ApplicationTimer demo: Starting application at 2016-12-28T22:00:47.755Z
+2016-12-28 23:00:48,137 [INFO] from play.api.Play in ForkJoinPool-2-worker-1 - Application started (Dev)
+2016-12-28 23:07:20,049 [INFO] from application in pool-12-thread-7 - ApplicationTimer demo: Stopping application at 2016-12-28T22:07:20.049Z after 393s.
+2016-12-28 23:07:20,052 [INFO] from application in pool-12-thread-7 - Shutting down connection pool.

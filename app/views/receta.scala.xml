@@ -1,0 +1,12 @@
+@(receta: Receta, ingredientes: List[Ingrediente])
+
+<receta id="@receta.getId()">
+	<nombre>@receta.getNombre()</nombre>
+	<descripcion>@receta.getDescripcion()</descripcion>
+	<categoria>@receta.getCategoria()</categoria>
+	<ingredientes>	
+			@for(i <- ingredientes) {
+			@ingrediente(i)
+			}
+	</ingredientes>
+</receta>

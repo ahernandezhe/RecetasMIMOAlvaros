@@ -1,0 +1,7 @@
+@(ingredientes: List[Ingrediente])
+
+<recetas>
+@for(i <- ingredientes) {
+@ingrediente(i)
+}
+</recetas>

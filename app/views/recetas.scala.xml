@@ -1,0 +1,7 @@
+@(recetas: List[Receta])
+
+<recetas>
+@for(r <- recetas) {
+@receta(r, r.getIngredientes())
+}
+</recetas>

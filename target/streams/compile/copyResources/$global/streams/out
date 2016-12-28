@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\conf\application.conf,C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\conf\evolutions,C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\target\scala-2.11\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\conf\logback.xml,C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\target\scala-2.11\classes\logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\conf\routes,C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\target\scala-2.11\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\conf\evolutions\default,C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\target\scala-2.11\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\conf\evolutions\default\1.sql,C:\Users\Alvaro\Documents\activator-1.3.10\bin\recetasMIMO\target\scala-2.11\classes\evolutions\default\1.sql)[0m
