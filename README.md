@@ -150,7 +150,7 @@ Nuestros Peticiones GET devuelven resultados tanto de tipo **JSON** como **XML**
 ### Obtener recetas por categoría
  [http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/receta/categoria/:categoria](http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/receta/categoria/:categoria) 
  
-## Método `DELETE`
+## Petición `DELETE`
 ### Eliminar una receta
 [http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/receta/:id](http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/receta/:id) 
 
