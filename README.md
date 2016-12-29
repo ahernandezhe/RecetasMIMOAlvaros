@@ -1,6 +1,6 @@
 # RecetasMIMOAlvaros
 API recetas utilizando Play Framework.
-## Métodos `POST`
+## Peticiones `POST`
 ### Crear receta
 Ejemplo de la estructura del JSON de llamada: 
 
@@ -33,7 +33,7 @@ Ejemplo de la estructura del JSON de llamada:
         }
 [http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/ingredientes](http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/ingredientes)
 
-## Métodos `PUT`
+## Peticiones `PUT`
 Para actualizar una receta o un ingrediente tendremos que pasarle en el body de la petición un **JSON** con toda la información de la receta o del ingrediente, NO solo los campos a actualizar. 
 
 Ejemplo de estructura del JSON para actualizar una receta:
@@ -71,8 +71,8 @@ Ejemplo de estructura del JSON para actualizar un ingrediente:
 ### Actualizar ingrediente
 [http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/ingrediente](http://ec2-35-156-68-35.eu-central-1.compute.amazonaws.com/ingrediente)
 
-## Métodos `GET`
-Nuestros métodos GET devuelven resultados tanto de tipo **JSON** como **XML**.
+## Peticiones `GET`
+Nuestros Peticiones GET devuelven resultados tanto de tipo **JSON** como **XML**.
 ### Resultado JSON:
 
         curl --verbose -X GET --header "Accept: application/json" 
